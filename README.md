@@ -3,16 +3,16 @@
 本规则包含以下几种配置项：
 
 - [标准规则](https://github.com/steamerjs/code-lint/tree/master/packages/standard)：包含[所有 ESLint 规则](https://eslint.org/docs/rules/)
-- [React 版](https://github.com/steamerjs/code-lint/tree/master/packages/react)：在[标准规则](https://github.com/steamerjs/code-lint/tree/master/packages/standard)的基础上，增加了所有 [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) 规则
+- [React 版](https://github.com/steamerjs/code-lint/tree/master/packages/react)：在标准规则的基础上，增加了所有 [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) 规则
 - [Vue 版](https://github.com/steamerjs/code-lint/tree/master/packages/vue)（待完善）
 
 ## 配置原则
 
-它们依据以下三条原则进行配置：
+依据以下三条原则进行配置：
 
 1. 能够帮助发现代码错误的规则，全部开启
-2. 配置不依赖于某个具体项目，需要尽可能的合理
-3. 帮助保持代码风格统一，而不是限制开发体验
+2. 配置不应该依赖于某个具体项目，而应尽可能的合理
+3. 帮助保持团队的代码风格统一，而不是限制开发体验
 
 ## 使用方法
 

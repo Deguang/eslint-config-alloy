@@ -3,8 +3,8 @@
 本规则在[标准规则](https://github.com/steamerjs/code-lint/tree/master/packages/standard)的基础上，增加了所有 [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) 规则，依据以下三条原则进行配置：
 
 1. 能够帮助发现代码错误的规则，全部开启
-2. 配置不依赖于某个具体项目，需要尽可能的合理
-3. 帮助保持代码风格统一，而不是限制开发体验
+2. 配置不应该依赖于某个具体项目，而应尽可能的合理
+3. 帮助保持团队的代码风格统一，而不是限制开发体验
 
 本规则基于 eslint-plugin-react 7.1.0
 
